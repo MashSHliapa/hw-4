@@ -3,69 +3,71 @@
 }
 
 .body {
-
   font-weight: 500;
   line-height: 27px;
   padding: 0;
   margin: 0;
 }
+
 .section-class {
   max-width: 1600px;
-
 }
 
 .container {
+  display: inline;
   max-width: 1140px;
   margin: 160px 230px 100px 230px;
+  text-align: center;
+}
 
+/*.row {}*/
+
+.col-drone,
+.col-camera {
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .picture-drone,
 .picture-camera {
+  display: inline-block;
   font-weight: 500;
   line-height: 27px;
   max-width: 555px;
   height: 296px;
-  border: black 1px solid;
+  border: purple 1px solid;
   font-family: "Hind Siliguri", sans-serif;
   background: linear-gradient(to left,#008BF0,#D943C9);
-
 }
+
  .picture-drone-on-title,
  .picture-camera-on-title {
   padding: 75px 279px 0 35px;
   font-size: 16px;
   font-weight: 500;
-
-
  }
 
  .picture-drone-title,
  .picture-camera-title {
-  display: inline-block;
   font-weight: 600;
   line-height: 41px;
   font-size: 31px;
-  height: 81px;
   padding: 5px 0 0 35px;
 
  }
  .picture-drone-subtitle,
  .picture-camera-subtitle {
-  padding: 7px 444px 74px 35px;
+  padding: 7px 0px 74px 35px;
   font-size: 14px;
-
  }
 
  .picture-cover {
-
   float: right;
  }
 
  .drone {
   width: 275px;
-  height: 231px;
-  display: inline-block;
+  height: 241px;
   transform: rotate(8deg);
   margin-top: 30px;
 }
